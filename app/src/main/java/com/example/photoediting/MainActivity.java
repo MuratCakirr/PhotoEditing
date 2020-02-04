@@ -69,7 +69,6 @@ public class MainActivity extends AppCompatActivity {
 
         firebaseStorage = FirebaseStorage.getInstance();
         storageReference = firebaseStorage.getReference();
-        // .
     }
 
     public void detect(View view){
